@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "maxUserTurns": 5,
+  "scenarios": [
+    {
+      "id": "LOVE",
+      "title": "연인과의 대화",
+      "opening": "내가 그런 말을 했다고? 너는 항상 일을 과장하더라.",
+      "learningObjective": "서로 다른 기억과 감정 표현, 경계 설정, 상황 확인"
+    },
+    {
+      "id": "FRIEND",
+      "title": "친구의 부탁",
+      "opening": "진짜 친구면 이 정도 부탁은 들어줘야 하는 거 아니야?",
+      "learningObjective": "죄책감 유발 표현을 구분하고 부담 없는 거절 연습"
+    },
+    {
+      "id": "WORK",
+      "title": "직장에서의 책임",
+      "opening": "그 일은 네가 맡는 걸로 이미 다 얘기 끝난 거 아니었어?",
+      "learningObjective": "역할·책임 확인과 근거 중심 대화 연습"
+    }
+  ],
+  "constraints": [
+    "시뮬레이션임을 명시",
+    "사용자 중단 가능",
+    "위협/모욕 강도 상승 금지",
+    "실제 인물 진단 금지"
+  ]
+}

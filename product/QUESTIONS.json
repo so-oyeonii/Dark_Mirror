@@ -1,0 +1,108 @@
+{
+  "version": "draft-1.0",
+  "validation": "unvalidated product prototype; not a clinical or validated psychological scale",
+  "responseScale": {
+    "min": 1,
+    "max": 5
+  },
+  "dimensions": {
+    "boundary": "경계 설정 (높음=경계 표현 경향)",
+    "approval": "인정 추구 (높음=타인 인정 중요)",
+    "conflict": "갈등 회피 (높음=갈등 회피 경향)",
+    "perspective": "관점 수용 (높음=다른 관점 고려)",
+    "uncertainty": "불확실성 대처 (높음=모호함을 견디는 경향)"
+  },
+  "scoring": "reverse ? 6 - value : value; mean per dimension; ((mean-1)/4)*100",
+  "items": [
+    {
+      "id": "Q01",
+      "dimension": "boundary",
+      "text": "부담스러운 부탁을 받으면 거절 의사를 표현할 수 있다.",
+      "reverse": false
+    },
+    {
+      "id": "Q02",
+      "dimension": "boundary",
+      "text": "상대가 실망할까 봐 원하지 않는 부탁도 받아들인다.",
+      "reverse": true
+    },
+    {
+      "id": "Q03",
+      "dimension": "boundary",
+      "text": "내 의견이 상대와 달라도 차분하게 설명할 수 있다.",
+      "reverse": false
+    },
+    {
+      "id": "Q04",
+      "dimension": "approval",
+      "text": "중요한 결정을 내릴 때 다른 사람의 인정이 필요하다고 느낀다.",
+      "reverse": false
+    },
+    {
+      "id": "Q05",
+      "dimension": "approval",
+      "text": "다른 사람이 내 선택을 좋아하지 않아도 괜찮다고 느낀다.",
+      "reverse": true
+    },
+    {
+      "id": "Q06",
+      "dimension": "approval",
+      "text": "상대가 나를 부정적으로 평가할까 봐 자주 신경 쓴다.",
+      "reverse": false
+    },
+    {
+      "id": "Q07",
+      "dimension": "conflict",
+      "text": "불편한 문제가 생기면 직접 이야기하기보다 미루는 편이다.",
+      "reverse": false
+    },
+    {
+      "id": "Q08",
+      "dimension": "conflict",
+      "text": "의견이 충돌하더라도 필요한 대화는 시도한다.",
+      "reverse": true
+    },
+    {
+      "id": "Q09",
+      "dimension": "conflict",
+      "text": "갈등이 생길 것 같으면 내 의견을 말하지 않는 편이다.",
+      "reverse": false
+    },
+    {
+      "id": "Q10",
+      "dimension": "perspective",
+      "text": "상대의 행동을 평가하기 전에 그 사람의 상황을 생각해본다.",
+      "reverse": false
+    },
+    {
+      "id": "Q11",
+      "dimension": "perspective",
+      "text": "의견이 다른 사람의 입장에서도 문제를 바라보려고 노력한다.",
+      "reverse": false
+    },
+    {
+      "id": "Q12",
+      "dimension": "perspective",
+      "text": "나와 생각이 다르면 상대의 의견을 이해하기 어렵다.",
+      "reverse": true
+    },
+    {
+      "id": "Q13",
+      "dimension": "uncertainty",
+      "text": "관계에서 상대의 의도가 분명하지 않아도 성급히 결론짓지 않는다.",
+      "reverse": false
+    },
+    {
+      "id": "Q14",
+      "dimension": "uncertainty",
+      "text": "상대의 반응이 애매하면 이유를 즉시 확인해야 마음이 놓인다.",
+      "reverse": true
+    },
+    {
+      "id": "Q15",
+      "dimension": "uncertainty",
+      "text": "상황이 명확하지 않을 때 여러 가능성을 열어둘 수 있다.",
+      "reverse": false
+    }
+  ]
+}
